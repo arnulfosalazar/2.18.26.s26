@@ -20,6 +20,8 @@ public:
 	int pop_back(); //deletes and returns the rightmost value
 	int erase(int index); //deletes the value at index and returns it
 
+	void expand();
+
 
 private:
 	int* ar; //pointer to store the starting address of the array
