@@ -20,10 +20,10 @@ public:
 	int pop_back(); //deletes and returns the rightmost value
 	int erase(int index); //deletes the value at index and returns it
 
-	void expand();
-
 
 private:
+	void expand();
+
 	int* ar; //pointer to store the starting address of the array
 	int size; //size of the array (total number of elements that it can hold)
 	int count; //number of elements currently in the array
