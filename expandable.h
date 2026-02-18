@@ -20,6 +20,10 @@ public:
 	int pop_back(); //deletes and returns the rightmost value
 	int erase(int index); //deletes the value at index and returns it
 
+	//getters
+	int front(); //returns the leftmost element
+	int back(); //returns the right most element
+	int at(int index); //returns the element at index
 
 private:
 	void expand();

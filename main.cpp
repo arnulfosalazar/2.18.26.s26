@@ -20,7 +20,7 @@ int main() {
 	//50, 100, 20
 
 	//pop_back(); removes the last value. you can make it return the value that it removed
-	// erase(index);
+	//erase(index);
 
 	std::cout << v1.pop_back() << std::endl; // 30
 	v1.print(); //10, 20
